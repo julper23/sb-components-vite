@@ -15,6 +15,7 @@ const meta = {
         allCaps: {control:"boolean"},
         color: {control:"select"},
         fontColor: {control:"color"},
+        backgroundColor: {control:"color"},
     }
 
 } satisfies Meta<typeof MyLabel>;
@@ -49,3 +50,12 @@ export const CustomColor:Story = {
         fontColor:"#37e02e"
     }
 }
+
+export const CustomBackgroundColor:Story = {
+    args:{
+        label: "Custom Color label",
+        fontColor:"white",
+        backgroundColor:"Black"
+    }
+}
+
