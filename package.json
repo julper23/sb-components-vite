@@ -1,7 +1,7 @@
 {
   "name": "jp23-custom-components",
   "private": false,
-  "version": "0.0.7",
+  "version": "0.1.0",
   "type": "module",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
