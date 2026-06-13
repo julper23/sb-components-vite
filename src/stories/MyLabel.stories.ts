@@ -4,7 +4,7 @@ import { MyLabel } from "../components/MyLabel";
 
 
 const meta = {
-    title:"Example/MyLabel",
+    title:"UI/Labels/MyLabel",
     component: MyLabel,
     tags: ["autodocs"],
     parameters:{

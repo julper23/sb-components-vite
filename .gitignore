@@ -23,6 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 *.log
+node_modules
+dist
+dist-ssr
+*.local
 
 *storybook.log
 storybook-static
